@@ -53,6 +53,8 @@ function draw() {
 
   //draw Tama and closed mouth
   circle(tamaX,tamaY,tamaDiam);
+  circle(227,217,40);
+  circle(267,217,40);
   fill(0);
   let mouthOffset = tamaDiam/2;
   rect(tamaX-mouthOffset/2,tamaY,mouthOffset,3);
